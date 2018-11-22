@@ -4,6 +4,9 @@ body{
 	font-size: 16px;
 	color:black;
 	position: relative;
+	background-image: url(home.jpg);
+	align-items: center;
+	background-size: 100%; 
 }
 html,body{
 	width:100%;
@@ -12,13 +15,43 @@ html,body{
 h1,h2,h3{
 	font-weight: 350;
 }
+.navbar-header{
+	background:#fff;
+	border:none;
+	/*-webkit-box-shadow:0 2px 8px 0 rgba(50, 50, 50, 0.08);*/
+	box-shadow:0 2px 8px 0 rgba(50, 50, 50, 0.08);
+	margin:0;padding:0;
+	
+}
+.navbar-header a {
+    /*float: left;*/
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+    }
+    .navbar-header{
+    	width: 100%;
+height: 50px;
+    }
+
+    .navbar-header a li{
+ list-style: none;
+ float: left;
+ padding-left: 30px;
+ padding-top: 15px;
+    }
+
 .title{
 	color:#303030;
 	font-size: 60px;
 }
 .container{
-
-
+	padding: 50px;
+	text-align: center;
+	margin-bottom: 0px;
 }
 .navbar-header{
 
@@ -31,8 +64,14 @@ ul{
 }
 .header1,.header2{text-transform:uppercase;
 	text-align: center;
+	font-color:#660066;
 }
-.header1{font-size:60px;}
+.header1{font-size:60px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 250px;
+
+}
 .header2{color:#330033;
 	font-weight:bold;
 	padding-bottom:40px;
@@ -40,13 +79,27 @@ ul{
 	background:#330033;
 	color:#ffffff;
 	border:none;border-radius:2px;font-size:20px;font-weight:700;margin-top:30px;padding:15px 50px;-webkit-transition:all 0.6s ease-in;transition:all 0.6s ease-in;
-text-align: center;}
+text-align: center;
 
 }
-.header2{background:#330033;color:#ffffff;border:none;border-radius:2px;font-size:20px;font-weight:700;margin-top:30px;padding:15px 50px;-webkit-transition:all 0.6s ease-in;transition:all 0.6s ease-in;
-text-align: center;}
+/*.header2{background:#330033;color:#ffffff;border:none;border-radius:2px;font-size:20px;font-weight:700;margin-top:30px;padding:15px 50px;-webkit-transition:all 0.6s ease-in;transition:all 0.6s ease-in;
+text-align: center;}*/
 
 .center{
 	position: center;
 	text-align: center;
+}
+
+button{
+	background-color: #330033; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#work{
+	margin-top: 0;
 }
