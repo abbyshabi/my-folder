@@ -1,4 +1,4 @@
-body{
+.body{
 	background: white;
 	font-family: sans-serif;
 	font-size: 16px;
@@ -102,4 +102,22 @@ button{
 }
 #work{
 	margin-top: 0;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+  /*background-color: white;*/
+  padding: 20px;
+}
+.grid-item {
+  /*background-color: white;*/
+  padding: 20px;
+  font-size: 30px;
+  /*text-align: center;*/
+}
+
+
+.grid-item ul{
+ list-style: none;
 }
