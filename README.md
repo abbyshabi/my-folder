@@ -12,5 +12,6 @@ I created the static page from the begining using html and css, it shows my port
 ## Support and contact details
 contact me: abbyshabi@gmail.com
 ### License
+portfolio can be found on : https://abbyshabi.github.io/my-folder/
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c)2018 **Oluwadamilola Shabi
